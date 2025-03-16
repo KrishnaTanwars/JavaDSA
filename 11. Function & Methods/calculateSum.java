@@ -5,12 +5,11 @@ public class calculateSum {
         Scanner sc= new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println( Sum(a, b)
-        );
+        System.out.println(Sum(a, b));//Arguments or Actual Parameters
 
     }
 
-    public static int Sum(int a, int b) {
+    public static int Sum(int a, int b) {//Parameters or formal parameters
         int sum = a + b;
         return sum;
 
